@@ -1,0 +1,45 @@
+#string creation
+creating strings using single quotes, and triple quotes, and triple quotes(mutiline)
+#single-quote='hello world'
+#Double-qoote="Hello world"
+#multiling='''follow\nBradnexttdoor.instagram'''
+
+#string Indexing
+s="python"
+#accesing characters using indexing 
+print(s[0])#first character
+
+#string slicing
+string sublicing
+print(s[1:4])   #substring from index 1 to 3
+print(s[:5]). 3substring from start to index 4
+print(s[::2]) #every other character
+
+#concatenation and repetition
+#concatenating string using+and repeating strings using*
+concatenated='follow'+'pycode.hub
+
+repeated='hi!'
+#printing the results
+print(concatenated).# Repeated string
+
+OUTPUT
+follow pycod.hub
+hi!hi!hi!
+strip method
+#strip loading and trailing spaces
+print(s.strip())#remove loading/trailing spaces
+
+OUTPUT
+follow pycod.hub!
+
+replece()method
+#Replace substring
+print(s.replace('follow','subscrbe')) #replace'follow'with'subscribe
+
+OUTPUT
+subscribe pycod.hub!
+
+split()method
+#split string by spaces
+print(s.split())#spil
